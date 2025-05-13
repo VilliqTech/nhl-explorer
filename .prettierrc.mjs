@@ -7,7 +7,7 @@ const config = {
   jsxSingleQuote: true,
   printWidth: 120,
   quoteProps: 'consistent',
-  semi: 'true',
+  semi: true,
   singleQuote: true,
   tabWidth: 4,
   trailingComma: 'es5',
