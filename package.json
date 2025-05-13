@@ -1,5 +1,5 @@
 {
-  "name": "mantine-vite-template",
+  "name": "nhl-explorer",
   "private": true,
   "type": "module",
   "version": "0.0.0",
@@ -44,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
     "identity-obj-proxy": "^3.0.0",
+    "jiti": "^2.4.2",
     "jsdom": "^26.1.0",
     "postcss": "^8.5.3",
     "postcss-preset-mantine": "1.17.0",

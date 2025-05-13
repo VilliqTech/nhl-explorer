@@ -1,7 +1,15 @@
 /** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
 const config = {
-  printWidth: 100,
+  arrowParens: 'always',
+  bracketSpacing: true,
+  endOfLine: 'lf',
+  htmlWhitespaceSensitivity: 'strict',
+  jsxSingleQuote: true,
+  printWidth: 120,
+  quoteProps: 'consistent',
+  semi: 'true',
   singleQuote: true,
+  tabWidth: 4,
   trailingComma: 'es5',
   plugins: ['@ianvs/prettier-plugin-sort-imports'],
   importOrder: [

@@ -6,6 +6,12 @@ export default tseslint.config(
   { ignores: ['**/*.{mjs,cjs,js,d.ts,d.mts}', './.storybook/main.ts'] },
   {
     files: ['**/*.story.tsx'],
-    rules: { 'no-console': 'off' },
+    rules: {
+      'arrow-body-style': ['error', 'always'],
+      curly: ['error', 'always'],
+      'default-param-last': ['error', 'always'],
+      eqeqeq: ['error', 'always'],
+      'no-console': 'off',
+    },
   }
 );
